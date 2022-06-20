@@ -37,11 +37,15 @@ Plug 'vim-airline/vim-airline-themes'
 <leader>ci
 Plug 'preservim/nerdcommenter'
 ````
-- Find files - [fzf.vim][PlFZ] (requer [fzf][PlFZ])
+- Find files - [fzf.vim][PlFZ] (requires [fzf][PlFZ])
 ````sh
 :Files
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+````
+- Find word between files [silver-searcher][PlSS]
+````sh
+apt-get install silversearcher-ag
 ````
 - Show identation [identLine][PlID]
 ````sh
@@ -66,3 +70,4 @@ Plug 'vim-python/python-syntax'
 [PlFZV]: <https://github.com/junegunn/fzf.vim>
 [PlID]: <https://github.com/Yggdroot/indentLine>
 [PlPy]: <https://github.com/vim-python/python-syntax>
+[PlSS]: <https://github.com/ggreer/the_silver_searcher>

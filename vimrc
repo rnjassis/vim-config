@@ -82,7 +82,3 @@ let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 " fzf
 map ; :Files<CR>
 
-" CRI
-nmap <leader>spa :cd /mnt/c/Users/Rafael.assis/Documents/Git/CriMG/sources/cregionalWeb/src
-
-

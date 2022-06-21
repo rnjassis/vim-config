@@ -9,9 +9,6 @@ Plug 'morhetz/gruvbox'
 " tabs
 Plug 'bagrat/vim-buffet'
 
-" icons
-Plug 'ryanoasis/vim-devicons'
-
 " auto-pair {([...
 Plug 'jiangmiao/auto-pairs'
 
@@ -31,11 +28,6 @@ Plug 'junegunn/fzf.vim'
 
 " show identation
 Plug 'Yggdroot/indentLine'
-
-" language syntax
-Plug 'pangloss/vim-javascript'
-Plug 'vim-python/python-syntax'
-
 call plug#end()
 
 " CONFIGURACOES
@@ -65,12 +57,8 @@ autocmd vimenter * ++nested colorscheme gruvbox
 set background=dark
 
 " vim-buffet
-let g:buffet_powerline_separators = 1
-let g:buffet_tab_icon = "\uf00a"
-let g:buffet_left_trunc_icon = "\uf0a8"
-let g:buffet_right_trunc_icon = "\uf0a9"
 set encoding=UTF-8
-let g:buffet_use_devicons=1
+let g:buffet_use_devicons=0
 
 nmap <leader>1 <Plug>BuffetSwitch(1)
 nmap <leader>2 <Plug>BuffetSwitch(2)
@@ -91,14 +79,10 @@ let g:airline_theme='powerlineish'
 set fileencodings=utf-8
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
-" python-syntax
-let g:python_highlight_all = 1
-
-" javacript syntax
-let g:javascript_plugin_jsdoc = 1
-let g:javascript_plugin_ngdoc = 1
-let g:javascript_plugin_flow = 1
-
 " fzf
 map ; :Files<CR>
+
+" CRI
+nmap <leader>spa :cd /mnt/c/Users/Rafael.assis/Documents/Git/CriMG/sources/cregionalWeb/src
+
 

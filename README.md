@@ -1,7 +1,7 @@
 # Vim configurations
 ---
-### Branch master
-##### Working on Garuda Linux and on Ubuntu - based system (Zorin 16)
+### Branch ubuntu-wsl
+##### Working on Ubuntu 20.04.4 on Windows WSL
 Plugin manager used: [vim-plug][Vimpl]
 
 ---
@@ -17,10 +17,6 @@ Plug 'morhetz/gruvbox'
 - Tabs - [Vim buffet][PlVB]
 ````sh
 Plug 'bagrat/vim-buffet'
-````
-- Icons - [Devicons][PlDI]
-````sh
-Plug 'ryanoasis/vim-devicons'
 ````
 - Auto-pair '{','(','[','...] - [auto-pairs][PlAP]
 ````sh
@@ -50,11 +46,6 @@ apt-get install silversearcher-ag
 - Show identation [identLine][PlID]
 ````sh
 Plug 'Yggdroot/indentLine'
-````
-- Language syntax - [vim-javascript][PlJs] and [python-syntax][PlPy]
-````sh
-Plug 'pangloss/vim-javascript'
-Plug 'vim-python/python-syntax'
 ````
 [PlJs]: <https://github.com/pangloss/vim-javascript>
 [VimPl]: <https://github.com/junegunn/vim-plug>

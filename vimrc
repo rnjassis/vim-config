@@ -36,16 +36,25 @@ Plug 'Yggdroot/indentLine'
 Plug 'pangloss/vim-javascript'
 Plug 'vim-python/python-syntax'
 
+" highlight yank
+Plug 'machakann/vim-highlightedyank'
 call plug#end()
 
-" CONFIGURACOES
-let mapleader="\\"
-noremap <leader>p "*p<CR>
+source /home/silva/outside_vim_config
+
+" CONFIGURATIONS
+let mapleader=" "
 set mouse=a
 set number
 "set relativenumber
 set listchars=tab:\|\
 set list
+set splitbelow splitright
+
+"for searching
+set ignorecase
+set smartcase
+set incsearch
 
 if (has("termguicolors"))
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
@@ -99,6 +108,5 @@ let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_ngdoc = 1
 let g:javascript_plugin_flow = 1
 
-" fzf
-map ; :Files<CR>
-
+nnoremap <leader>p "*p
+nnoremap <leader>y "*y

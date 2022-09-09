@@ -56,6 +56,10 @@ Plug 'Yggdroot/indentLine'
 Plug 'pangloss/vim-javascript'
 Plug 'vim-python/python-syntax'
 ````
+- Highlight yanked words - [highlightedyank][PlHY]
+```sh
+Plug 'machakann/vim-highlightedyank'
+````
 [PlJs]: <https://github.com/pangloss/vim-javascript>
 [VimPl]: <https://github.com/junegunn/vim-plug>
 [PlNT]: <https://github.com/preservim/nerdtree>
@@ -71,3 +75,4 @@ Plug 'vim-python/python-syntax'
 [PlID]: <https://github.com/Yggdroot/indentLine>
 [PlPy]: <https://github.com/vim-python/python-syntax>
 [PlSS]: <https://github.com/ggreer/the_silver_searcher>
+[PlHY]:  <https://github.com/machakann/vim-highlightedyank>

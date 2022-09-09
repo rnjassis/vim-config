@@ -46,7 +46,7 @@ source /home/silva/outside_vim_config
 let mapleader=" "
 set mouse=a
 set number
-"set relativenumber
+set relativenumber
 set listchars=tab:\|\
 set list
 set splitbelow splitright
@@ -108,5 +108,15 @@ let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_ngdoc = 1
 let g:javascript_plugin_flow = 1
 
+"changing from vplit or to hsplit
+noremap <leader>ov <c-w>t<c-w>K
+noremap <leader>oh <c-w>t<c-w>H
+
+" resizing current window
+noremap <leader>+ <c-w>t<c-w>>
+noremap <leader>- <c-w>t><c-w><
+
+" pasting
 nnoremap <leader>p "*p
 nnoremap <leader>y "*y
+nnoremap <C-v> "+p
